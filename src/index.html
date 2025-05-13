@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content=" Купить дом в Ласпи | Владис"
+    />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+   
+    <title>Ласпи</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <a href="#" class="logo">
+            <img src="/images/logoHeader.webp" alt="Логотип" loading="lazy" />
+          </a>
+
+          <ul>
+            <li><a href="#gallery">фото</a></li>
+            <li><a href="#company">о компании</a></li>
+            <li><a href="#contact">контакты</a></li>
+          </ul>
+
+          <a href="tel:+79780157015" class="phone">+7 (978) 015-70-15</a>
+        </nav>
+
+        <input type="checkbox" id="burgerCheckbox" />
+        <label for="burgerCheckbox" class="toggle">
+          <div class="burgerLine topLine"></div>
+          <div class="burgerLine middleLine"></div>
+          <div class="burgerLine bottomLine"></div>
+        </label>
+
+        <div class="menuContainer" data-is-show="false">
+          <div class="menuContent">
+            <ul>
+              <li><a href="#gallery">фото</a></li>
+              <li><a href="#company">о компании</a></li>
+              <li><a href="#contact">контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <div class="title">
+          <a href="#gallery"
+            ><h1>
+              Купить дом <span class="paintText" data-animate>в Ласпи</span>
+            </h1></a
+          >
+
+          <div class="subTitleContainer">
+            <a href="#contact" class="contactButton">Связаться с нами</a>
+
+            <div class="subTitle">
+              <h3>АГЕНСТВО НЕДВИЖИМОСТИ «ВЛАДИС»</h3>
+              <h3>
+                Покупка, продажа, аренда, жилой и коммерческой недвижимости
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="videoContainer">
+          <video autoplay muted loop playsinline>
+            <source src="https://storage.yandexcloud.net/static-video/output_1400k.webm" type="video/webm" />
+            <source src="https://storage.yandexcloud.net/static-video/output_noaudio.mp4" type="video/mp4" />
+
+            <img
+              src="/images/video.webp"
+              alt="Фолбэк изображение"
+              class="videoFallback"
+            />
+          </video>
+        </div>
+
+        <div class="wrapper">
+          <p class="indent fadeIn" data-animate>
+            <span class="paintText" data-animate>Ласпи</span> — посёлок в
+            отдалённой южной части Балаклавского района Севастополя. Находится
+            на <span class="paintText" data-animate>Южном берегу Крыма</span>, в
+            котловине Ласпинской бухты, в небольшой долине склона Байдарской
+            яйлы.
+          </p>
+
+          <div class="groupTextContainer fadeIn" data-animate>
+            <div class="groupText">
+              <p>
+                Ласпинская бухта — одна из самых красивых и посещаемых на Южном
+                берегу Крыма. Береговая линия залива протянулась между мысами
+                Айя и Сарыч на 12 км, а его чаша имеет диаметр около 2,5 км.
+              </p>
+
+              <div class="doubleText">
+                <p>
+                  Бухта считается одной из самых тёплых точек Крыма. Климат
+                  здесь средиземноморский, благодаря чему даже в зимние месяцы
+                  столбик термометра редко опускается ниже отметки +5 °С.
+                </p>
+
+                <p>
+                  Лучшим временем для посещения Ласпи называют период с середины
+                  июня до конца августа, когда температура воды в море комфортна
+                  для купания и составляет от 25 до 27 °С.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="wrapper">
+          <h2><span class="paintText" data-animate>Ваш</span> будущий дом</h2>
+        </div>
+
+        <div class="scrollContainer">
+          <div class="scrollHeader fadeIn" data-animate>
+            <h3>
+              Построен в строгом соответствии с проектом, экологичен и безопасен
+            </h3>
+            <p>
+              Жилой дом, расположенный в уникальном по своей красоте и природным
+              условиям месте, предназначен для комфортного проживания и отдыха
+              всей семьей.
+            </p>
+          </div>
+
+          <div class="scrollMain">
+            <div class="scrollTrack">
+              <img
+                src="/images/gallery/gallery1.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery2.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery3.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+            </div>
+          </div>
+
+          <div class="scrollFooter">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+
+        <div class="scrollContainer">
+          <div class="scrollHeader fadeIn" data-animate>
+            <h3>Места хватит всем</h3>
+            <p>
+              Общая площадь трехэтажного дома 270 кв.м, четыре жилых комнаты и
+              кухня – гостиная.
+            </p>
+          </div>
+
+          <div class="scrollMain">
+            <div class="scrollTrack">
+              <img
+                src="/images/gallery/gallery4.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery5.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery6.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+            </div>
+          </div>
+
+          <div class="scrollFooter">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+
+        <div class="scrollContainer">
+          <div class="scrollHeader fadeIn" data-animate>
+            <h3>Потрясающие виды из любого окна</h3>
+            <p>
+              Остекление – тройные стеклопакеты с заводской тонировкой, профиль
+              и фурнитура – производство Германия. Все панорамные окна
+              оборудованы защитными роллетами с электроприводом и дистанционным
+              управлением.
+            </p>
+          </div>
+
+          <div class="scrollMain">
+            <div class="scrollTrack">
+              <img
+                src="/images/gallery/gallery7.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery8.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery9.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+            </div>
+          </div>
+
+          <div class="scrollFooter">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+
+        <div class="scrollContainer">
+          <div class="scrollHeader fadeIn" data-animate>
+            <h3>Каждому уютное пространство в своем доме</h3>
+            <p></p>
+          </div>
+
+          <div class="scrollMain">
+            <div class="scrollTrack">
+              <img
+                src="/images/gallery/gallery10.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery11.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery12.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+            </div>
+          </div>
+
+          <div class="scrollFooter">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+
+        <div class="scrollContainer">
+          <div class="scrollHeader fadeIn" data-animate>
+            <h3>Дышите полной грудью теперь у Вас свой лес</h3>
+            <p>
+              Земельный участок – 8,5 соток. Разработанный и ухоженный, завезено
+              около ста кубометров плодородной земли. На участке растут сосны,
+              дубы, фисташки, тисы, туи, можжевельник.
+            </p>
+          </div>
+
+          <div class="scrollMain">
+            <div class="scrollTrack">
+              <img
+                src="/images/gallery/gallery13.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery14.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery15.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+            </div>
+          </div>
+
+          <div class="scrollFooter">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+
+        <div class="scrollContainer">
+          <div class="scrollHeader fadeIn" data-animate>
+            <h3>Развлечения на любой вкус</h3>
+            <p>
+              Бассейн с чашей 6х3 м, летняя кухня с печью-барбекю и раздвижными
+              окнами площадью 24 кв.м.
+            </p>
+          </div>
+
+          <div class="scrollMain">
+            <div class="scrollTrack">
+              <img
+                src="/images/gallery/gallery16.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery17.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+              <img
+                src="/images/gallery/gallery18.webp"
+                alt=""
+                loading="lazy"
+                class="galleryPhoto"
+              />
+            </div>
+          </div>
+
+          <div class="scrollFooter">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="company">
+        <div class="wrapper">
+          <h2>
+            О компании <span class="paintText" data-animate>«Владис»</span>
+          </h2>
+
+          <div class="banner">
+            <div class="imgBanner" data-animate="">
+              <img src="/images/banner.webp" alt="" />
+            </div>
+
+            <p class="fadeIn" data-animate>
+              <span class="paintText" data-animate
+                >Агентство недвижимости „Владис“
+              </span>
+              - федеральная сеть агентств недвижимости. Компания работает
+              <span class="paintText" data-animate>с 2006</span> года и
+              специализируется на аренде, продаже и других услугах в сфере
+              недвижимости.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper">
+          <h2 class="textEnd">
+            Наши главные
+            <span class="paintText" data-animate>преимущества</span>
+          </h2>
+        </div>
+
+        <div class="cardGallery">
+          <div class="cardScrollContainer">
+            <div class="cardTrack">
+              <div class="card">
+                <div class="number">01</div>
+                <div class="imgContainer">
+                  <img src="/images/card1.webp" alt="card1" />
+                </div>
+                <div class="description">
+                  Комплексное сопровождение по сделке
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="number">02</div>
+                <div class="imgContainer">
+                  <img src="/images/card2.webp" alt="card2" />
+                </div>
+                <div class="description">
+                  Помощь в оформлении ипотеки по льготным ставкам
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="number">03</div>
+                <div class="imgContainer">
+                  <img src="/images/card3.webp" alt="card3" />
+                </div>
+                <div class="description">
+                  Бесплатное юридическое сопровождение и одобрение ипотеки при
+                  покупке квартиры
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="number">04</div>
+                <div class="imgContainer">
+                  <img src="/images/card4.webp" alt="card4" />
+                </div>
+                <div class="description">
+                  Оперативный подбор или продажа объекта недвижимости в любом
+                  регионе
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="number">05</div>
+                <div class="imgContainer">
+                  <img src="/images/card5.webp" alt="card5" />
+                </div>
+                <div class="description">Продажа новостроек без комиссии</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardNavigation">
+            <button class="arrow" id="prev"></button>
+            <button class="arrow" id="next"></button>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <p id="indent2" class="indent fadeIn" data-animate>
+            По версии <span class="paintText" data-animate>«ДомКлик»</span>,
+            компания входит в
+            <span class="paintText" data-animate>ТОП-3</span> агентств
+            недвижимости России.
+          </p>
+        </div>
+
+        <div class="map">
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A657bffe4744c70e1aa3a9cd11e4bf88d2f4fe60d383900989bb867097ca5ccbf&amp;width=1280&amp;height=595&amp;lang=ru_RU&amp;scroll=true"
+          ></script>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="wrapper">
+          <h2>Контакты</h2>
+
+          <div class="contactContainer">
+            <div class="contactItem">
+              <span>Сайт:</span>
+              <a
+                href="https://vladis.ru/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                vladis.ru
+              </a>
+            </div>
+
+            <div class="contactItem">
+              <span>Телефон:</span>
+              <a
+                href="tel:+79780157015"
+                target="_blank"
+                rel="noopener noreferrer"
+                >+79780157015</a
+              >
+            </div>
+
+            <div class="contactItem">
+              <span>Адрес:</span
+              ><a
+                href="https://yandex.ru/maps/?text=Севастополь,+ул.+Павла+Корчагина,+19Б,+корп.+1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                г. Севастополь, ул. Павла Корчагина 19Б корп. 1
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgContact" data-animate>
+          <img src="/images/contact.webp" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <img src="/images/logoFooter.webp" alt="Логотип2" />
+
+        <div class="aboutLink">
+          <a href="/">Политика конфиденциальности</a>
+          <p>© 2020-2025 «ВЛАДИС Симферополь». Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./scripts/index.js"></script>
+  </body>
+</html>

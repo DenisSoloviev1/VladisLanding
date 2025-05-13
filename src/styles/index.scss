@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  /* colors */
+  --color-dark: #212121;
+  --color-gray: #757474;
+  --color-white: #ffffff;
+  --color-red: #ed1c24;
+
+  /*shadow*/
+  --default-shadow: 0 1px 20px rgba(172, 182, 191, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+// ::-webkit-scrollbar-thumb {
+//   background-color: #888;
+//   border-radius: 2px;
+// }
+
+// ::-webkit-scrollbar-thumb:hover {
+//   background-color: #555;
+// }
+
+// ::-webkit-scrollbar-track {
+//   background: transparent;
+// }
+
+// ::-webkit-scrollbar-corner {
+//   background: transparent;
+// }
+
+body {
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: var(--color-dark);
+  background-color: var(--color-white);
+  width: 100%;
+  min-width: 320px;
+  min-height: 100dvh;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  position: relative;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: inherit;
+}
