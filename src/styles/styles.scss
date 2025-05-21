@@ -670,6 +670,18 @@ footer {
   margin: 3rem 0;
 }
 
+@media screen and (min-width: 1450px) {
+  .scrollContainer {
+    .scrollMain {
+      overflow-x: hidden;
+    }
+
+    .scrollFooter {
+      display: none;
+    }
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .groupTextContainer {
     .groupText {
